@@ -4,7 +4,6 @@ const User = require('../models/user.js');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const nodemailer=require('nodemailer');
-//const { uploadFile } = require('../middleware/uploadFile')
 var transporter =nodemailer.createTransport({
 service:'gmail',
 auth:{
